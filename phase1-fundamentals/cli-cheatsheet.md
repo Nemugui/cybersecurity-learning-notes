@@ -93,6 +93,8 @@ ping -c 4 google.com  # ping exactly 4 times
 curl ifconfig.me      # show your public IP
 curl -I http://site   # show HTTP headers only
 curl -v http://site   # verbose — show everything
+curl -L http://site
+curl -0 text.txt http://site  
 traceroute google.com # show network path
 ss -tulnp             # show active connections
 ```
@@ -180,6 +182,9 @@ grep -r "password" /etc/ 2>/dev/null
 nmap -sn 192.168.1.0/24        # find live hosts
 nmap -sV target_ip             # detect services
 nmap -p 80,443 target_ip       # scan specific ports
+dig +short,+stats
+nslookup
+dnsrecon
 
 # Log analysis
 cat /var/log/auth.log           # authentication logs
