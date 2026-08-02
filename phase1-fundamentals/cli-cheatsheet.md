@@ -194,6 +194,13 @@ grep "root" /var/log/auth.log   # find root attempts
 
 ---
 
+## Additional i just discovered
+
+```bash
+
+```
+---
+
 ## Exit Codes
 ```bash
 echo $?    # check last command result
