@@ -9,6 +9,8 @@
 pwd                  # where am I right now?
 ls                   # list files in current folder
 ls -la               # list with details + hidden files
+ls -la | grep "^d"   # filters only directory
+ls -la | grep "^-"   # filters only files
 cd foldername        # go into folder
 cd ..                # go back one level
 cd ~                 # go to home folder
@@ -89,12 +91,15 @@ ip addr               # show network interfaces and IPs
 ip addr show eth0     # show specific interface
 ip route show         # show routing table
 ping google.com       # test connectivity
-ping -c 4 google.com  # ping exactly 4 times
+ping -c 4 google.com   # ping exactly 4 times
 curl ifconfig.me      # show your public IP
 curl -I http://site   # show HTTP headers only
 curl -v http://site   # verbose — show everything
-curl -L http://site
-curl -0 text.txt http://site  
+curl -L http://site   # follow the link to the final destination.
+curl -s http://example.com   # It prints only the raw content returned by the server—nothing else.
+curl -Lv http://site
+curl -Lo output.html http://site
+curl -sL http://site
 traceroute google.com # show network path
 ss -tulnp             # show active connections
 ```
