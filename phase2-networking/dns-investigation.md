@@ -115,9 +115,9 @@ dig -x 172.217.26.238
 ```
 
 ### Results
--bom05s09-in-f14.1e100.net
--ncmnlh-ak-in-f14.1e100.net
--nrt12s51-in-f14.1e100.net
+- bom05s09-in-f14.1e100.net
+- ncmnlh-ak-in-f14.1e100.net
+- nrt12s51-in-f14.1e100.net
 
 ### Analysis
 - `1e100.net` = Google's infrastructure domain
@@ -141,10 +141,10 @@ dig facebook.com NS
 ```
 
 ### Results
--facebook.com NS a.ns.facebook.com
--facebook.com NS b.ns.facebook.com
--facebook.com NS c.ns.facebook.com
--facebook.com NS d.ns.facebook.com
+- facebook.com NS a.ns.facebook.com
+- facebook.com NS b.ns.facebook.com
+- facebook.com NS c.ns.facebook.com
+- facebook.com NS d.ns.facebook.com
 
 ### Zone Transfer Attempt
 ```bash
@@ -182,13 +182,14 @@ dig axfr @a.ns.facebook.com facebook.com
 
 ## Key Takeaways
 
--DNS = internet's phone book
--Multiple IPs per domain = load balancing
--Cloudflare 1.1.1.1 = fastest DNS
--Reverse DNS reveals infrastructure info
--Zone transfers = dangerous if misconfigured
--DNS attacks are extremely common
--Always use encrypted DNS when possible (DoH/DoT)
+- DNS = internet's phone book
+- Multiple IPs per domain = load balancing
+- Cloudflare 1.1.1.1 = fastest DNS
+- Reverse DNS reveals infrastructure info
+- Zone transfers = dangerous if misconfigured
+- DNS attacks are extremely common
+- Always use encrypted DNS when possible (DoH/DoT)
+
 ---
 
 *Investigation by Nemugui | Phase 2 — Networking*
