@@ -77,6 +77,7 @@ echo $?               # exit code of last command
 ```bash
 ps aux                # show all running processes
 ps aux | grep python  # find specific process
+ps aux | wc -l        # counts lines, tell you total number of processes running
 kill 1234             # stop process with PID 1234
 kill -9 1234          # force stop process
 top                   # live process monitor
