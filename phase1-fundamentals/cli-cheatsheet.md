@@ -189,6 +189,7 @@ nmap -sn 192.168.1.0/24        # find live hosts
 nmap -sV target_ip             # detect services
 nmap -p 80,443 target_ip       # scan specific ports
 dig +short,+stats
+dig -x 8.8.8.8                 # reverse lookup
 nslookup
 dnsrecon
 
@@ -203,6 +204,7 @@ grep "root" /var/log/auth.log   # find root attempts
 ## Additional i just discovered
 
 ```bash
+curl -s ifconfig.me # sis a flag and means silence
 
 ```
 ---
