@@ -80,7 +80,7 @@ ps aux | grep python  # find specific process
 ps aux | wc -l        # counts lines, tell you total number of processes running
 kill 1234             # stop process with PID 1234
 kill -9 1234          # force stop process
-top                   # live process monitor
+top -bn1              # is a Linux command used to display a real-time, one-time snapshot of running processes, CPU usage, and memory usage
 htop                  # better live process monitor
 ```
 
