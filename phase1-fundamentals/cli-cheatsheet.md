@@ -9,8 +9,6 @@
 pwd                  # where am I right now?
 ls                   # list files in current folder
 ls -la               # list with details + hidden files
-ls -la | grep "^d"   # filters only directory
-ls -la | grep "^-"   # filters only files
 cd foldername        # go into folder
 cd ..                # go back one level
 cd ~                 # go to home folder
@@ -56,6 +54,8 @@ grep -v "word" file.txt         # show lines WITHOUT word
 find / -name "file.txt"         # find file on entire system
 find folder/ -name "*.txt"      # find all txt files in folder
 find / -name "*.txt" 2>/dev/null # hide permission errors
+ls -la | grep "^d"   # filters only directory
+ls -la | grep "^-"   # filters only files
 ```
 
 ---
