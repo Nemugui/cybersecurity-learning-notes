@@ -204,7 +204,7 @@ grep "root" /var/log/auth.log   # find root attempts
 ## Additional i just discovered
 
 ```bash
-curl -s ifconfig.me # sis a flag and means silence
+curl -s ifconfig.me # 
 
 ```
 ---
