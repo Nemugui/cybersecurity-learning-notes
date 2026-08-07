@@ -102,7 +102,9 @@ curl -Lv http://site
 curl -Lo output.html http://site
 curl -sL http://site
 traceroute google.com # show network path
-ss -tulnp             # show active connections
+ss -tulnp             # show active connections on your device
+arp -a                # Displays the full table of recently contacted network devices.
+ip neigh show         # Shows active neighbors and their connection state (e.g., REACHABLE, STALE).
 ```
 
 ---
