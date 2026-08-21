@@ -4,8 +4,8 @@
 > Every concept studied, every tool used, every lab completed.
 
 **Student:** Josh (Nemugui)
-**Course:** BS Information Technology — CNSC
-**Started:** July 2026
+**Course:** BS Information Technology — UCN
+**Started:** June 2026
 **Goal:** Penetration Tester & Bug Bounty Hunter
 
 ---
