@@ -190,6 +190,11 @@ grep -r "password" /etc/ 2>/dev/null
 nmap -sn 192.168.1.0/24        # find live hosts
 nmap -sV target_ip             # detect services
 nmap -p 80,443 target_ip       # scan specific ports
+nmap -sS                       # Syn Scan
+nmap -sT                       # TCP Scan
+nmap -sU                       # UDP Scan
+nmap -sA                       # Check firewall
+nmap -O                        # check OS version
 dig +short,+stats
 dig -x 8.8.8.8                 # reverse lookup
 nslookup
