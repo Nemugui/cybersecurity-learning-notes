@@ -194,6 +194,7 @@ nmap -sS                       # Syn Scan
 nmap -sT                       # TCP Scan
 nmap -sU                       # UDP Scan
 nmap -sA                       # Check firewall
+nmap -sC                       # Runs default script
 nmap -O                        # check OS version
 dig +short,+stats
 dig -x 8.8.8.8                 # reverse lookup
