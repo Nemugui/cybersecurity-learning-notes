@@ -196,6 +196,8 @@ nmap -sU                       # UDP Scan
 nmap -sA                       # Check firewall
 nmap -sC                       # Runs default script
 nmap -O                        # check OS version
+nmap -sF
+nmap -sX
 dig +short,+stats
 dig -x 8.8.8.8                 # reverse lookup
 nslookup
@@ -212,7 +214,7 @@ grep "root" /var/log/auth.log   # find root attempts
 ## Additional i just discovered
 
 ```bash
-curl -s ifconfig.me # 
+curl -s ifconfig.me 
 
 ```
 ---
