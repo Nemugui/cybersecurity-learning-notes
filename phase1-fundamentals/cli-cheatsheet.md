@@ -176,6 +176,7 @@ sudo !!    # repeat last command as sudo
 ```bash
 # First commands after system access
 whoami                          # who am I?
+curl -s ifconfig.me 
 id                              # what groups am I in?
 ip addr                         # what network am I on?
 ps aux                          # what's running?
@@ -211,10 +212,10 @@ grep "root" /var/log/auth.log   # find root attempts
 
 ---
 
-## Additional i just discovered
+## tshark command
 
 ```bash
-curl -s ifconfig.me 
+
 
 ```
 ---
